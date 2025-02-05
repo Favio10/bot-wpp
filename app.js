@@ -25,7 +25,7 @@ const withSession = () => {
 
     client.on('auth_failure', () => {
         spinner.stop();
-        console.log('Error de autenticacion, vuelve a generar el QRCODE para luego');
+        console.log('Error de autenticacion, vuelve a generar el QRCODE para luego volver a escanear');
     })
     
     client.initialize();
