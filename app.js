@@ -34,7 +34,7 @@ const withSession = () => {
 
 const withOutSession = () => {
 
-    console.log("No existe session activa");
+    console.log("No existe session activa de");
     client = new Client();
     client.on('qr', qr => {
         qrcode.generate(qr, {small: true});
