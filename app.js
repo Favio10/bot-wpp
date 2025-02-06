@@ -34,7 +34,7 @@ const withSession = () => {
 
 const withOutSession = () => {
 
-    console.log("No existe session activa de");
+    console.log("No existe session activa de wpp, verificar");
     client = new Client();
     client.on('qr', qr => {
         qrcode.generate(qr, {small: true});
