@@ -19,7 +19,7 @@ const withSession = () => {
     })
 
     client.on('ready', () => {
-        console.log('Cliente ready!');
+        console.log('Cliente ok!');
         spinner.stop();
     })
 
